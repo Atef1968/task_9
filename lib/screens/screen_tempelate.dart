@@ -12,7 +12,7 @@ class ScreenTemplate extends StatefulWidget {
 class _ScreenTemplateState extends State<ScreenTemplate> {
   int pageIndex = 0;
 
-  int? selectedAnswerIndex; // ⭐ NEW: which answer is selected
+  int? selectedAnswerIndex; 
 
   @override
   Widget build(BuildContext context) {
