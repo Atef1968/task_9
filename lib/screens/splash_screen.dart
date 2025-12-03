@@ -1,7 +1,8 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:task_9/screens/screen_tempelate.dart';
+import 'package:task_9/screens/quiz_screen.dart';
+
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -17,7 +18,7 @@ void initState() {
     super.initState();
     Future.delayed(Duration(seconds: 5), () {
       if (!mounted) return;
-      Navigator.pushReplacement (context, MaterialPageRoute(builder: (context) => ScreenTemplate()));
+      Navigator.pushReplacement (context, MaterialPageRoute(builder: (context) => QuizScreen()));
     });
   }
 
